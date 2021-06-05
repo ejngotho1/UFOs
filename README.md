@@ -145,12 +145,13 @@ Code and Image
                 <tbody></tbody>
                 </table>
           </div>
-name-of-you-image
+
+![pic4-1](https://user-images.githubusercontent.com/57301554/120880419-0a145800-c590-11eb-9fb6-b23a3dbd120a.PNG)
 
 The event listener is modified to detect changes to each filter in the app.js file.
 Image with JavaScript & HTML Code below.
 
-Code and Image
+![pic4-1](https://user-images.githubusercontent.com/57301554/120880458-4f388a00-c590-11eb-9197-abb0444dced0.PNG)
 
 // 1. Create a variable to keep track of all the filters as an object.
 var filters = {};
@@ -160,12 +161,11 @@ function updateFilters() {
 
     // 4a. Save the element that was changed as a variable.
     let inputElement = d3.select(this);
-name-of-you-image
+
 
 ​The updateFilters() function saves the element, value, and the id of the filter that was changed.
 Image with JavaScript & HTML Code below.
 
-Code and Image
 
 function updateFilters() {
 
@@ -177,12 +177,10 @@ function updateFilters() {
 
     // 4c. Save the id of the filter that was changed as a variable.
     let inputID = inputElement.attr("id");
-name-of-you-image
 
 The filterTable() function loops through all of the filters and keeps any data that matches the filter values.
 Image with JavaScript & HTML Code below.
 
-Code and Image
 
     // 5. If a filter value was entered then add that filterId and value
     // to the filters list. Otherwise, clear that filter from the filters object.
@@ -196,12 +194,11 @@ Code and Image
     filterTable(filters);
   
   }
-name-of-you-image
+
 
 The webpage filters the table correctly based on user input.
 Image with JavaScript & HTML Code below.
 
-Code and Image
 
   // 7. Use this function to filter the table when data is entered.
   function filterTable() {
@@ -221,7 +218,7 @@ Code and Image
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData); 
   }
-name-of-you-image
+
 
 Deliverable 2:
 A written report on the UFO analysis
@@ -302,10 +299,6 @@ name-of-you-image
 Results: Let’s describe step by step how someone might use the new webpage by walking through the process of using the search criteria. Using images of your webpage during the filtering process to support your explanation.
 Let’s begin reviewing our HTML Filter and Table code.
 
-Image with JavaScript & HTML Code below.
-
-Code and Image
-
     <!--Filter and Table-->
     <div class="container-fluid">
         <div class="row">
@@ -356,19 +349,20 @@ Code and Image
           </div>
 From our Website (Project Example:) https://www.UFOs.gov.
 
-name-of-you-image
+
+![pic4-1](https://user-images.githubusercontent.com/57301554/120880532-e0a7fc00-c590-11eb-8035-f58e9600b849.PNG)
 
 Need to visit FILTER SEARCH
 
-name-of-you-image
+![pic4-1](https://user-images.githubusercontent.com/57301554/120880543-fe756100-c590-11eb-8221-e5972401b1d5.PNG)
 
 On filter criteria, you can search by "Shape" only if want, example: triangle
 
-name-of-you-image
+![pic4-1](https://user-images.githubusercontent.com/57301554/120880563-1f3db680-c591-11eb-9058-d9c1a4bdf976.PNG)
 
 And click on "Filter Table" button,
 
-name-of-you-image
+![pic4-1](https://user-images.githubusercontent.com/57301554/120880641-3a102b00-c591-11eb-96e0-98f41af13231.PNG)
 
 Automatically your search criteria will appear in our dynamic table resource.
 
@@ -376,11 +370,13 @@ name-of-you-image
 
 And, if want to start a new search, just click on "Clear Table" button, and start a new search.
 
-name-of-you-image
+![pic4-1](https://user-images.githubusercontent.com/57301554/120880680-544a0900-c591-11eb-9b11-4c21f5d8bde3.PNG)
 
 After clear table, you may see our default data,
 
-name-of-you-image
+![pic4-1](https://user-images.githubusercontent.com/57301554/120880702-73489b00-c591-11eb-90a4-bb35db6ea1f8.PNG)
+
+![pic4-1](https://user-images.githubusercontent.com/57301554/120880713-8e1b0f80-c591-11eb-9b9f-3aeb5c57fc7a.PNG)
 
 ​​Summary: In a summary statement, describe one drawback of this new design and two recommendations for further development.
 Drawback:
@@ -399,8 +395,5 @@ Including live testimonies were transcribed and published in the highly revealin
 
 Deliverable 3 (EXTRA):
 UFOs IO Page on GitHub
-Hope you enjoy the site.
 
-Image with JavaScript & HTML Code below.
-
-name-of-you-image
+![pic4-1](https://user-images.githubusercontent.com/57301554/120880750-c6225280-c591-11eb-8ab6-83f638132867.PNG)
